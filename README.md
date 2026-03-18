@@ -27,6 +27,3 @@ I tested multiple approaches (dictionary coding (using unicode), pattern replace
 - This method works best when the variety of characters (randomness) in the dataset is **<100 unique characters**, even if the dataset is large in size.
 - No external dependencies required.
 - Best results when length of given data is large
-
-
-## Example
