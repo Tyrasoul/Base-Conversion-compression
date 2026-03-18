@@ -1,7 +1,7 @@
 # Base Conversion Compressor
 
 A lightweight compression/decompression tool using base conversion.  
-I tested multiple approaches (dictionary coding (using unicode), pattern replacement, etc.), but for datasets with **less than ~100 unique characters** in randomness, base conversion consistently performed best.
+I tested multiple approaches (dictionary coding (using unicode), pattern replacement, etc.), but for datasets with **less than ~100 unique characters** in randomness, base conversion consistently performed best **for universal lossless compression**.
 
 ---
 
